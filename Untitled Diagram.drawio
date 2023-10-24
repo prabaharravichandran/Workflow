@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T00:07:31.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LudcnoHyVPT_v58JnobY" version="22.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-24T00:19:45.038Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="m2Zm0J2sfQrK6bLJaD7B" version="22.0.6" type="github" pages="5">
   <diagram name="GNSS Module" id="HK_8ZHLtKBkFRKTfFdco">
     <mxGraphModel dx="954" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1806,22 +1806,18 @@
         <mxCell id="EIoQqLv1L-An7SC59F_x-25" value="Data Acquisition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="180" y="590" width="120" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIoQqLv1L-An7SC59F_x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-27" target="EIoQqLv1L-An7SC59F_x-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EIoQqLv1L-An7SC59F_x-27" value="Data transfer from Payload to SSD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="653.5" width="120" height="36.5" as="geometry" />
-        </mxCell>
-        <mxCell id="xAsmkoYTmVXc8flxGDUQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-28" target="EIoQqLv1L-An7SC59F_x-38" edge="1">
+        <mxCell id="04zkGbfsQcUfVDSzJjtB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIoQqLv1L-An7SC59F_x-27" target="EIoQqLv1L-An7SC59F_x-38">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="747" />
-              <mxPoint x="640" y="444" />
+              <mxPoint x="240" y="730" />
+              <mxPoint x="640" y="730" />
+              <mxPoint x="640" y="480" />
+              <mxPoint x="887" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EIoQqLv1L-An7SC59F_x-28" value="Data transfer from SSD to GPSC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="728.5" width="120" height="36.5" as="geometry" />
+        <mxCell id="EIoQqLv1L-An7SC59F_x-27" value="Data transfer&lt;br&gt;(HDF5)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="653.5" width="120" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-30" target="EIoQqLv1L-An7SC59F_x-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1839,34 +1835,34 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="515" />
-              <mxPoint x="630" y="310" />
-              <mxPoint x="729" y="310" />
+              <mxPoint x="630" y="380" />
+              <mxPoint x="729" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-34" value="Copy CSV to USB drive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="497" width="120" height="36.5" as="geometry" />
         </mxCell>
-        <mxCell id="jn7o5Xkk-PxlietVmYXm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-36" target="EIoQqLv1L-An7SC59F_x-38" edge="1">
+        <mxCell id="04zkGbfsQcUfVDSzJjtB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIoQqLv1L-An7SC59F_x-36" target="EIoQqLv1L-An7SC59F_x-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-36" value="Create GeoJSON" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="669" y="351" width="120" height="30" as="geometry" />
+          <mxGeometry x="669" y="414" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xAsmkoYTmVXc8flxGDUQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-38" target="EIoQqLv1L-An7SC59F_x-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-38" value="Data Extraction&lt;br&gt;(cleanqc)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="669" y="425.5" width="120" height="36.5" as="geometry" />
+          <mxGeometry x="827" y="410.75" width="120" height="36.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIoQqLv1L-An7SC59F_x-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-40" target="EIoQqLv1L-An7SC59F_x-41" edge="1">
+        <mxCell id="04zkGbfsQcUfVDSzJjtB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIoQqLv1L-An7SC59F_x-40" target="EIoQqLv1L-An7SC59F_x-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-40" value="Image Processing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="827" y="430.5" width="120" height="26.5" as="geometry" />
+          <mxGeometry x="987" y="415.75" width="120" height="26.5" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-41" value="Annotation / Labelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="987" y="430.5" width="120" height="26.5" as="geometry" />
+          <mxGeometry x="987" y="462" width="120" height="26.5" as="geometry" />
         </mxCell>
         <mxCell id="EIoQqLv1L-An7SC59F_x-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-43" target="EIoQqLv1L-An7SC59F_x-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1911,8 +1907,8 @@
         <mxCell id="EIoQqLv1L-An7SC59F_x-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EIoQqLv1L-An7SC59F_x-41" target="EIoQqLv1L-An7SC59F_x-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1047" y="490" />
-              <mxPoint x="881" y="490" />
+              <mxPoint x="1047" y="500" />
+              <mxPoint x="881" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2037,10 +2033,8 @@
             <mxPoint x="650" y="690" as="sourcePoint" />
             <mxPoint x="650" y="690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="331" />
-              <mxPoint x="810" y="331" />
-              <mxPoint x="810" y="405" />
-              <mxPoint x="1150" y="404.5" />
+              <mxPoint x="650" y="390" />
+              <mxPoint x="1150" y="390" />
               <mxPoint x="1150" y="690" />
             </Array>
           </mxGeometry>
